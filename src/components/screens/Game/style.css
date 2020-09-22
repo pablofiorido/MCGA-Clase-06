@@ -1,0 +1,34 @@
+.circle {
+    width: 40px;
+    height: 40px;
+    margin: 50px 10;
+    border-radius: 40px;
+    background-color: #FFF;
+}
+
+.circlepainted{
+    width: 40px;
+    height: 40px;
+    margin: 50px 10;
+    border-radius: 40px;
+    background-color:red;
+}
+
+.board {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFF;
+}
+/*
+.board {
+  background-color: blue;
+  margin-left: 530px;
+  margin-right: 530px;
+}
+*/
+.row {
+    padding: 5px;
+    background-color: #3987A7;
+}
+
