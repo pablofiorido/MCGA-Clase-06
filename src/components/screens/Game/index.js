@@ -1,5 +1,7 @@
 import './style.css';
 import React from 'react';
+import Contact from '../Contact'
+import { render } from '@testing-library/react';
 //import { ReactComponent } from '*.svg';
 
 /*
@@ -99,6 +101,9 @@ const Board = props => {
                 <Circle />
                 <Circle />
                 <Circle />
+            </div>
+            <div>
+                <Contact />
             </div>
         </div>
     )

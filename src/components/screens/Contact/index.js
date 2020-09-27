@@ -16,6 +16,14 @@ class Contact extends React.Component {
 
             console.log("el nombre debe ser mayor a 3 caracteres")
         }
+        if (values && values.mail && values.mail.Length < 5) {
+
+            console.log("el mail debe ser mayor a 5 caracteres")
+        }
+        if (values && values.consult && values.consult.Length < 10) {
+
+            console.log("la consulta debe ser mas larga")
+        }
 
         console.log("validating form", values)
     }

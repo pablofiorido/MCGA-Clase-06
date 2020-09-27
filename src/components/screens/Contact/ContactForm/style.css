@@ -1,0 +1,7 @@
+.ContactForm label{
+text-transform: uppercase;
+}
+
+.ContactForm input{
+margin: 10px;
+}
